@@ -1,1 +1,1 @@
-Registracia  a  teraz pripisem Username
+Registracia  a  teraz pripisem Username + pridam aj Vek
