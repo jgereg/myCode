@@ -26,4 +26,24 @@ public class Mapa {
 
     }
 
+    public static void printSumAndAvg(int start, int stop) {
+
+        if (stop < start){
+            System.out.println("Sucet " + 0);
+            System.out.println("Priemer " + 0);
+        } else if (stop == start){
+            System.out.println("Sucet " + stop);
+            System.out.println("Primer " + stop);
+        }else {
+            double sum = 0;
+            for (int i = start; i <= stop; i++){
+                sum += i;
+            }
+            System.out.println("Sucet " + sum);
+            double avg = (double) sum / (stop - start + 1);
+            System.out.println("Priemer " + avg);
+        }
+
+    }
+
 }
